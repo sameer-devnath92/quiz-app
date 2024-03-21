@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">Student</string>
+    <string name="gcu_azara_assam">GCU, Azara, Assam</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="select_department">Select Department</string>
+    <string name="_60">60</string>
+    <string name="select_subject" />
+    <string name="password_hint" />
+    <string name="start_quiz">Start Quiz</string>
+    <string name="subject">Subject:</string>
+    <string name="department">Department:</string>
+    <string name="quiz">Quiz:</string>
+    <string name="quiz_name">Quiz Name</string>
+    <string name="question">Question</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="add_question">Add Question</string>
+    <string name="create_quiz">Create Quiz</string>
+    <string name="course">Course</string>
+</resources>

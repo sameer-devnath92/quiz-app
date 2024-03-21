@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDepartment"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextQuizName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCourse"
+        android:layout_marginTop="16dp"
+        android:hint="Quiz Name"/>
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuizName"
+        android:layout_marginTop="16dp"
+        android:hint="Question"/>
+
+    <EditText
+        android:id="@+id/editTextOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuestion"
+        android:layout_marginTop="16dp"
+        android:hint="Option 1"/>
+
+    <EditText
+        android:id="@+id/editTextOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOption1"
+        android:layout_marginTop="16dp"
+        android:hint="Option 2"/>
+
+    <EditText
+        android:id="@+id/editTextOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOption2"
+        android:layout_marginTop="16dp"
+        android:hint="Option 3"/>
+
+    <EditText
+        android:id="@+id/editTextOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOption3"
+        android:layout_marginTop="16dp"
+        android:hint="Option 4"/>
+
+    <EditText
+        android:id="@+id/editTextCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOption4"
+        android:layout_marginTop="16dp"
+        android:hint="Correct Answer"/>
+
+    <Button
+        android:id="@+id/buttonAddQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:layout_below="@id/editTextCorrectAnswer"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCreateQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Quiz"
+        android:layout_below="@id/buttonAddQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>

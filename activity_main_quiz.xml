@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/option1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="62dp"
+        android:onClick="onOptionSelected"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/option2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option1Button"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:onClick="onOptionSelected"/>
+
+    <Button
+        android:id="@+id/option3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option2Button"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:onClick="onOptionSelected"/>
+
+    <Button
+        android:id="@+id/option4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option3Button"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:onClick="onOptionSelected"/>
+
+</RelativeLayout>

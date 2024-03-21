@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/buttonFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/faculty"
+        android:textSize="18sp"
+        android:onClick="onFacultyButtonClick"/>
+
+
+    <Button
+        android:id="@+id/buttonStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:layout_below="@id/buttonFaculty"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:onClick="onStudentButtonClick"/>
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/gcu_azara_assam"
+        android:textColor="#555"
+        android:textSize="14sp" />
+
+</RelativeLayout>
